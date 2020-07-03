@@ -11,13 +11,10 @@ function isAnagrams(item, dict) {
 }
 
 export function anagrams(word, words) {
-    const output = []
-
-    words.forEach((item) => {
+    return words.reduce((acc,cur) => {
         const dict = word.split('');
-        if (isAnagrams(item,dict))
-            output.push(item);
-    })
-
-    return output;
+        if (isAnagrams(cur,dict))
+            acc.push(cur);
+        return acc;
+    },[])
 }
