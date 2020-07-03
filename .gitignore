@@ -1,1 +1,8 @@
 # Created by .ignore support plugin (hsz.mobi)
+.idea/.gitignore
+.idea/JS-Kata.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+node_modules/
+yarn.lock
