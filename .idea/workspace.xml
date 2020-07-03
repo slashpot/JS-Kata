@@ -20,11 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d987bf1f-2815-4791-90a9-cf715342e49c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WhereMyAnagramsAt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/WhereMyAnagramsAt.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sum.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sum.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WhereMyAnagramsAt.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/WhereMyAnagramsAt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/WhereMyAnagramsAt.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/WhereMyAnagramsAt.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +50,12 @@
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/package.json" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
@@ -62,7 +66,7 @@
       <command value="All Tests" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Jest.Solution">
     <configuration name="All Tests" type="JavaScriptTestRunnerJest">
       <config-file value="$PROJECT_DIR$/package.json" />
       <node-interpreter value="project" />
@@ -73,6 +77,28 @@
       <scope-kind value="ALL" />
       <method v="2" />
     </configuration>
+    <configuration name="Solution" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/tests/WhereMyAnagramsAt.test.js" />
+      <test-names>
+        <test-name value="Solution" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Jest.All Tests" />
+      <item itemvalue="Jest.Solution" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.Solution" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -85,8 +111,16 @@
       <option name="presentableId" value="Default" />
       <updated>1593778999481</updated>
       <workItem from="1593779001741" duration="85000" />
-      <workItem from="1593787065831" duration="1400000" />
+      <workItem from="1593787065831" duration="2074000" />
     </task>
+    <task id="LOCAL-00001" summary="implement WhereMyAnagramsAt.js and add first test">
+      <created>1593788666115</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593788666115</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +137,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="implement WhereMyAnagramsAt.js and add first test" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement WhereMyAnagramsAt.js and add first test" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="659" y="195" key="#All_Tests" timestamp="1593787302086">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -112,26 +150,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593787441483" />
+    <state x="59" y="96" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1593789140740">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="59" y="96" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593789140740" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1593787355803">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1593787355803" />
-    <state width="1877" height="211" key="GridCell.Tab.0.bottom" timestamp="1593787908474">
+    <state width="1877" height="359" key="GridCell.Tab.0.bottom" timestamp="1593789139255">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="211" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593787908474" />
-    <state width="1877" height="211" key="GridCell.Tab.0.center" timestamp="1593787908473">
+    <state width="1877" height="359" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593789139255" />
+    <state width="1877" height="359" key="GridCell.Tab.0.center" timestamp="1593789139255">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="211" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593787908473" />
-    <state width="1877" height="211" key="GridCell.Tab.0.left" timestamp="1593787908473">
+    <state width="1877" height="359" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593789139255" />
+    <state width="1877" height="359" key="GridCell.Tab.0.left" timestamp="1593789139255">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="211" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593787908473" />
-    <state width="1877" height="211" key="GridCell.Tab.0.right" timestamp="1593787908473">
+    <state width="1877" height="359" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593789139255" />
+    <state width="1877" height="359" key="GridCell.Tab.0.right" timestamp="1593789139255">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="211" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593787908473" />
+    <state width="1877" height="359" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593789139255" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1593779083048">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -140,13 +182,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1593787924055" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1593788668434">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593788668434" />
     <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1593787735404">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593787735404" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1593787518549">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1593788942679">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593787518549" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593788942679" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/WhereMyAnagramsAt.js</url>
+          <line>4</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

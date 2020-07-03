@@ -1,20 +1,21 @@
 //https://www.codewars.com/kata/523a86aa4230ebb5420001e1/train/javascript
-function isAnagrams(item, dictSet) {
+function isAnagrams(item, dict) {
     return item.split('').every((char) => {
-        return dictSet.has(char)
+        const index = dict.findIndex(x=>x===char);
+        if (index != -1){
+            dict[index]=null;
+            return true;
+        }
+        return false;
     })
 }
 
 export function anagrams(word, words) {
     const output = []
-    const dictSet = word.split('').reduce((acc, cur) => {
-        if (!acc.has(cur))
-            acc.add(cur)
-        return acc;
-    },new Set())
 
     words.forEach((item) => {
-        if (isAnagrams(item,dictSet))
+        const dict = word.split('');
+        if (isAnagrams(item,dict))
             output.push(item);
     })
 

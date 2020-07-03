@@ -10,9 +10,14 @@
 
 import {anagrams} from "../src/WhereMyAnagramsAt";
 
-describe("Solution", function() {
+describe("WhereMyAngramsAt: ", function() {
     it(`case 1`, function() {
         const expected = ['aabb', 'bbaa'];
         expect(anagrams('abba',['aabb', 'abcd', 'bbaa', 'dada'])).toEqual(expected);
+    });
+
+    it(`case 2`, function() {
+        const expected = ['carer', 'racer'];
+        expect(anagrams('racer',['crazer', 'carer', 'racar', 'caers', 'racer'])).toEqual(expected);
     });
 });
