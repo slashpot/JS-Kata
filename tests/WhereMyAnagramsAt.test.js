@@ -20,4 +20,9 @@ describe("WhereMyAngramsAt: ", function() {
         const expected = ['carer', 'racer'];
         expect(anagrams('racer',['crazer', 'carer', 'racar', 'caers', 'racer'])).toEqual(expected);
     });
+
+    it(`case 3`, function() {
+        const expected = [];
+        expect(anagrams('laser',['lazing', 'lazy',  'lacer'])).toEqual(expected);
+    });
 });
