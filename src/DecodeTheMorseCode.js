@@ -52,6 +52,8 @@ function toChar(code) {
             return "Y";
         case "--..":
             return "Z";
+        case '...---...':
+            return 'SOS';
     }
 }
 

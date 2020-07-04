@@ -22,6 +22,7 @@
     <list default="true" id="d987bf1f-2815-4791-90a9-cf715342e49c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DecodeTheMorseCode.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DecodeTheMorseCode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/DecodeTheMorseCode.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/DecodeTheMorseCode.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +66,7 @@
       <command value="All Tests" />
     </option>
   </component>
-  <component name="RunManager" selected="Jest.DecodeTheMorseCode: ">
+  <component name="RunManager" selected="Jest.DecodeTheMorseCode: .SOS has no space">
     <configuration name="All Tests" type="JavaScriptTestRunnerJest">
       <config-file value="$PROJECT_DIR$/package.json" />
       <node-interpreter value="project" />
@@ -74,6 +75,34 @@
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DecodeTheMorseCode: .SOS has no space" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/tests/DecodeTheMorseCode.test.js" />
+      <test-names>
+        <test-name value="DecodeTheMorseCode: " />
+        <test-name value="SOS has no space" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="DecodeTheMorseCode: .SOS" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/tests/DecodeTheMorseCode.test.js" />
+      <test-names>
+        <test-name value="DecodeTheMorseCode: " />
+        <test-name value="SOS" />
+      </test-names>
       <method v="2" />
     </configuration>
     <configuration name="DecodeTheMorseCode: " type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
@@ -120,9 +149,13 @@
       <item itemvalue="Jest.Solution" />
       <item itemvalue="Jest.WhereMyAngramsAt: " />
       <item itemvalue="Jest.DecodeTheMorseCode: " />
+      <item itemvalue="Jest.DecodeTheMorseCode: .SOS" />
+      <item itemvalue="Jest.DecodeTheMorseCode: .SOS has no space" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.DecodeTheMorseCode: .SOS has no space" />
+        <item itemvalue="Jest.DecodeTheMorseCode: .SOS" />
         <item itemvalue="Jest.DecodeTheMorseCode: " />
         <item itemvalue="Jest.WhereMyAngramsAt: " />
         <item itemvalue="Jest.Solution" />
@@ -141,7 +174,7 @@
       <updated>1593778999481</updated>
       <workItem from="1593779001741" duration="85000" />
       <workItem from="1593787065831" duration="2752000" />
-      <workItem from="1593824038407" duration="2125000" />
+      <workItem from="1593824038407" duration="3234000" />
     </task>
     <task id="LOCAL-00001" summary="implement WhereMyAnagramsAt.js and add first test">
       <created>1593788666115</created>
@@ -178,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593825782886</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add morse code of all characters">
+      <created>1593826255910</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1593826255910</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,7 +242,8 @@
     <MESSAGE value="add test" />
     <MESSAGE value="refactor" />
     <MESSAGE value="implement DecodeTheMorseCode and finish first test" />
-    <option name="LAST_COMMIT_MESSAGE" value="implement DecodeTheMorseCode and finish first test" />
+    <MESSAGE value="add morse code of all characters" />
+    <option name="LAST_COMMIT_MESSAGE" value="add morse code of all characters" />
   </component>
   <component name="WindowStateProjectService">
     <state x="659" y="195" key="#All_Tests" timestamp="1593787302086">
@@ -217,74 +258,74 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="59" y="96" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593789140740" />
-    <state width="383" height="466" key="DebuggerActiveHint" timestamp="1593789216619">
+    <state width="383" height="466" key="DebuggerActiveHint" timestamp="1593827075807">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="383" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1593789216619" />
+    <state width="383" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1593827075807" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1593787355803">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1593787355803" />
-    <state width="914" height="218" key="GridCell.Tab.0.bottom" timestamp="1593826159993">
+    <state width="1877" height="359" key="GridCell.Tab.0.bottom" timestamp="1593827262153">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="218" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593826159993" />
-    <state width="914" height="218" key="GridCell.Tab.0.center" timestamp="1593826159993">
+    <state width="1877" height="359" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593827262153" />
+    <state width="1877" height="359" key="GridCell.Tab.0.center" timestamp="1593827262153">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="218" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593826159993" />
-    <state width="914" height="218" key="GridCell.Tab.0.left" timestamp="1593826159993">
+    <state width="1877" height="359" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593827262153" />
+    <state width="1877" height="359" key="GridCell.Tab.0.left" timestamp="1593827262153">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="218" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593826159993" />
-    <state width="914" height="218" key="GridCell.Tab.0.right" timestamp="1593826159993">
+    <state width="1877" height="359" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593827262153" />
+    <state width="1877" height="359" key="GridCell.Tab.0.right" timestamp="1593827262153">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="218" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593826159993" />
-    <state width="1877" height="359" key="GridCell.Tab.1.bottom" timestamp="1593789812035">
+    <state width="1877" height="359" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593827262153" />
+    <state width="1877" height="359" key="GridCell.Tab.1.bottom" timestamp="1593827265854">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="359" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593789812035" />
-    <state width="1877" height="359" key="GridCell.Tab.1.center" timestamp="1593789812035">
+    <state width="1877" height="359" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593827265854" />
+    <state width="1877" height="359" key="GridCell.Tab.1.center" timestamp="1593827265853">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="359" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593789812035" />
-    <state width="1877" height="359" key="GridCell.Tab.1.left" timestamp="1593789812035">
+    <state width="1877" height="359" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593827265853" />
+    <state width="1877" height="359" key="GridCell.Tab.1.left" timestamp="1593827265853">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="359" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593789812035" />
-    <state width="1877" height="359" key="GridCell.Tab.1.right" timestamp="1593789812035">
+    <state width="1877" height="359" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593827265853" />
+    <state width="1877" height="359" key="GridCell.Tab.1.right" timestamp="1593827265854">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="359" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593789812035" />
-    <state width="1877" height="359" key="GridCell.Tab.2.bottom" timestamp="1593789812035">
+    <state width="1877" height="359" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593827265854" />
+    <state width="1877" height="359" key="GridCell.Tab.2.bottom" timestamp="1593827262093">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="359" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593789812035" />
-    <state width="1877" height="359" key="GridCell.Tab.2.center" timestamp="1593789812035">
+    <state width="1877" height="359" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593827262093" />
+    <state width="1877" height="359" key="GridCell.Tab.2.center" timestamp="1593827262093">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="359" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593789812035" />
-    <state width="1877" height="359" key="GridCell.Tab.2.left" timestamp="1593789812035">
+    <state width="1877" height="359" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593827262093" />
+    <state width="1877" height="359" key="GridCell.Tab.2.left" timestamp="1593827262093">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="359" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593789812035" />
-    <state width="1877" height="359" key="GridCell.Tab.2.right" timestamp="1593789812035">
+    <state width="1877" height="359" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593827262093" />
+    <state width="1877" height="359" key="GridCell.Tab.2.right" timestamp="1593827262093">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="359" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593789812035" />
+    <state width="1877" height="359" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593827262093" />
     <state x="594" y="149" width="998" height="711" key="SettingsEditor" timestamp="1593825030282">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="594" y="149" width="998" height="711" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593825030282" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1593825034897">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1593827188856">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1593825034897" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1593825784348">
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1593827188856" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1593826257397">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593825784348" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593826257397" />
     <state x="601" y="246" width="700" height="530" key="recent.locations.popup" timestamp="1593824056952">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -297,5 +338,41 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593825002552" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/DecodeTheMorseCode.js</url>
+          <line>64</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/DecodeTheMorseCode.js</url>
+          <line>54</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/DecodeTheMorseCode.js</url>
+          <line>2</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/DecodeTheMorseCode.js</url>
+          <line>1</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/DecodeTheMorseCode.js</url>
+          <line>55</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
