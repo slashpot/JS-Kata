@@ -12,4 +12,8 @@ describe("DecodeTheMorseCode: ", function () {
     it('SOS has no space', function () {
         expect(decodeMorse('...---...')).toBe('SOS')
     });
+
+    it('single code with space', function () {
+        expect(decodeMorse(' . ')).toBe('E')
+    });
 });

@@ -69,5 +69,5 @@ export const decodeMorse = function (morseCode) {
         }
         isLeadingSpace = false;
         return toChar(code);
-    }).join("");
+    }).join("").trim();
 };
