@@ -20,8 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d987bf1f-2815-4791-90a9-cf715342e49c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DecodeTheMorseCode.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DecodeTheMorseCode.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/DecodeTheMorseCode.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/DecodeTheMorseCode.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +64,7 @@
       <command value="All Tests" />
     </option>
   </component>
-  <component name="RunManager" selected="Jest.DecodeTheMorseCode: ">
+  <component name="RunManager" selected="Jest.DecodeTheMorseCode: .paragraph with special character !">
     <configuration name="All Tests" type="JavaScriptTestRunnerJest">
       <config-file value="$PROJECT_DIR$/package.json" />
       <node-interpreter value="project" />
@@ -105,6 +103,20 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="DecodeTheMorseCode: .paragraph with special character !" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/tests/DecodeTheMorseCode.test.js" />
+      <test-names>
+        <test-name value="DecodeTheMorseCode: " />
+        <test-name value="paragraph with special character !" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="DecodeTheMorseCode: .single code with space" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -132,34 +144,21 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="WhereMyAngramsAt: " type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/tests/WhereMyAnagramsAt.test.js" />
-      <test-names>
-        <test-name value="WhereMyAngramsAt: " />
-      </test-names>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Jest.All Tests" />
-      <item itemvalue="Jest.WhereMyAngramsAt: " />
       <item itemvalue="Jest.DecodeTheMorseCode: " />
       <item itemvalue="Jest.DecodeTheMorseCode: .SOS" />
       <item itemvalue="Jest.DecodeTheMorseCode: .SOS has no space" />
       <item itemvalue="Jest.DecodeTheMorseCode: .single code with space" />
+      <item itemvalue="Jest.DecodeTheMorseCode: .paragraph with special character !" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.DecodeTheMorseCode: .paragraph with special character !" />
         <item itemvalue="Jest.DecodeTheMorseCode: " />
         <item itemvalue="Jest.DecodeTheMorseCode: .single code with space" />
         <item itemvalue="Jest.DecodeTheMorseCode: .SOS has no space" />
         <item itemvalue="Jest.DecodeTheMorseCode: .SOS" />
-        <item itemvalue="Jest.WhereMyAngramsAt: " />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +174,7 @@
       <updated>1593778999481</updated>
       <workItem from="1593779001741" duration="85000" />
       <workItem from="1593787065831" duration="2752000" />
-      <workItem from="1593824038407" duration="3234000" />
+      <workItem from="1593824038407" duration="3539000" />
     </task>
     <task id="LOCAL-00001" summary="implement WhereMyAnagramsAt.js and add first test">
       <created>1593788666115</created>
@@ -219,7 +218,21 @@
       <option name="project" value="LOCAL" />
       <updated>1593826255910</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fix SOS case and add test">
+      <created>1593827307603</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1593827307603</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fix bug with space at beginning or end of line and add test">
+      <created>1593827539645</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1593827539645</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,7 +257,9 @@
     <MESSAGE value="refactor" />
     <MESSAGE value="implement DecodeTheMorseCode and finish first test" />
     <MESSAGE value="add morse code of all characters" />
-    <option name="LAST_COMMIT_MESSAGE" value="add morse code of all characters" />
+    <MESSAGE value="fix SOS case and add test" />
+    <MESSAGE value="fix bug with space at beginning or end of line and add test" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bug with space at beginning or end of line and add test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="659" y="195" key="#All_Tests" timestamp="1593787302086">
@@ -267,66 +282,66 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1593787355803" />
-    <state width="1877" height="359" key="GridCell.Tab.0.bottom" timestamp="1593827262153">
+    <state width="1877" height="268" key="GridCell.Tab.0.bottom" timestamp="1593827473321">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="359" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593827262153" />
-    <state width="1877" height="359" key="GridCell.Tab.0.center" timestamp="1593827262153">
+    <state width="1877" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593827473321" />
+    <state width="1877" height="268" key="GridCell.Tab.0.center" timestamp="1593827473320">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="359" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593827262153" />
-    <state width="1877" height="359" key="GridCell.Tab.0.left" timestamp="1593827262153">
+    <state width="1877" height="268" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593827473320" />
+    <state width="1877" height="268" key="GridCell.Tab.0.left" timestamp="1593827473319">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="359" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593827262153" />
-    <state width="1877" height="359" key="GridCell.Tab.0.right" timestamp="1593827262153">
+    <state width="1877" height="268" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593827473319" />
+    <state width="1877" height="268" key="GridCell.Tab.0.right" timestamp="1593827473321">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="359" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593827262153" />
-    <state width="1877" height="359" key="GridCell.Tab.1.bottom" timestamp="1593827265854">
+    <state width="1877" height="268" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593827473321" />
+    <state width="1877" height="128" key="GridCell.Tab.1.bottom" timestamp="1593827425116">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="359" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593827265854" />
-    <state width="1877" height="359" key="GridCell.Tab.1.center" timestamp="1593827265853">
+    <state width="1877" height="128" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593827425116" />
+    <state width="1877" height="128" key="GridCell.Tab.1.center" timestamp="1593827425116">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="359" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593827265853" />
-    <state width="1877" height="359" key="GridCell.Tab.1.left" timestamp="1593827265853">
+    <state width="1877" height="128" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593827425116" />
+    <state width="1877" height="128" key="GridCell.Tab.1.left" timestamp="1593827425116">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="359" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593827265853" />
-    <state width="1877" height="359" key="GridCell.Tab.1.right" timestamp="1593827265854">
+    <state width="1877" height="128" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593827425116" />
+    <state width="1877" height="128" key="GridCell.Tab.1.right" timestamp="1593827425116">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="359" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593827265854" />
-    <state width="1877" height="359" key="GridCell.Tab.2.bottom" timestamp="1593827262093">
+    <state width="1877" height="128" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593827425116" />
+    <state width="1877" height="128" key="GridCell.Tab.2.bottom" timestamp="1593827425117">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="359" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593827262093" />
-    <state width="1877" height="359" key="GridCell.Tab.2.center" timestamp="1593827262093">
+    <state width="1877" height="128" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593827425117" />
+    <state width="1877" height="128" key="GridCell.Tab.2.center" timestamp="1593827425117">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="359" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593827262093" />
-    <state width="1877" height="359" key="GridCell.Tab.2.left" timestamp="1593827262093">
+    <state width="1877" height="128" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593827425117" />
+    <state width="1877" height="128" key="GridCell.Tab.2.left" timestamp="1593827425116">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="359" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593827262093" />
-    <state width="1877" height="359" key="GridCell.Tab.2.right" timestamp="1593827262093">
+    <state width="1877" height="128" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593827425116" />
+    <state width="1877" height="128" key="GridCell.Tab.2.right" timestamp="1593827425117">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="359" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593827262093" />
+    <state width="1877" height="128" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593827425117" />
     <state x="594" y="149" width="998" height="711" key="SettingsEditor" timestamp="1593825030282">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="594" y="149" width="998" height="711" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593825030282" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1593827188856">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1593827320290">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1593827188856" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1593826257397">
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1593827320290" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1593827540904">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593826257397" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593827540904" />
     <state x="601" y="246" width="700" height="530" key="recent.locations.popup" timestamp="1593824056952">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -335,10 +350,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593787735404" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1593825002552">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1593827343972">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593825002552" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593827343972" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

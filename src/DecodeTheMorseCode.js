@@ -54,6 +54,10 @@ function toChar(code) {
             return "Z";
         case '...---...':
             return 'SOS';
+        case '-.-.--':
+            return '!'
+        case '.-.-.-':
+            return '.'
     }
 }
 
